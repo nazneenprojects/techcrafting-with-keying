@@ -3,8 +3,9 @@ subtitle: <scaffolding phase>
 email: naz18mulani@gmail.com
 description: A Personal Website for Keying my own Personal Experinces and Knowledge 
 locale: "en-US"
-baseurl: ""
-url: "https://techcrafting-with-keying.github.io"
+baseurl: "/techcrafting-with-keying"
+#url: "https://techcrafting-with-keying.github.io"
+url: "https://nazneenprojects.github.io"
 logo: "/assets/images/logo_3.png"
 github_username:  nazneenprojects
 repository: nazneenprojects/techcrafting-with-keying
