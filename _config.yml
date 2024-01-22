@@ -1,0 +1,99 @@
+title: TechCrafting-with-Keying...
+subtitle: <scaffolding phase>
+email: naz18mulani@gmail.com
+description: A Personal Website for Keying my own Personal Experinces and Knowledge 
+locale: "en-US"
+baseurl: ""
+url: "https://techcrafting-with-keying.github.io"
+logo: "/assets/images/logo_3.png"
+github_username:  nazneenprojects
+repository: nazneenprojects/techcrafting-with-keying
+github: [metadata]
+
+# Build settings
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+minimal_mistakes_skin: "dirt" # "air"contrast", "aqua", "dirt", "sunrise", "dark", "default", "neon", "plum", "mint"
+search: true
+
+#plugins
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Site Author
+author:
+  name    : "Nazneen M"
+  avatar  : "/assets/images/profile7.gif"
+  bio     : "Software Engineer with Cloud Interest [ Pronouns: She/her ]"
+  location: "Hamburg, Germany"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:naz18mulani@gmail.com"
+    - label: "Github"
+      icon: "far fa-star"
+      url: "https://github.com/nazneenprojects"
+    - label: "Stackoverflow"
+      icon: "fas fa-poll-h"
+      url: "https://stackoverflow.com/users/11387361/nazneen-mulani"
+    - label: "LinkedIn"
+      icon: "fas fa-retweet" 
+      url: "https://www.linkedin.com/in/nazneen-mulani-05004012a/"
+    - label: "Discord"
+      icon: "fas fa-thumbtack"
+      url: "coruscent_45612"
+
+include: ["_pages"]
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      show_date: true
+
+# Collections
+collections:
+  now:
+    output: true
+    permalink: /:collection/:path/
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+footer:
+  links:
+    - label: "Twiiter"
+      icon: ""
+      url: ""
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
