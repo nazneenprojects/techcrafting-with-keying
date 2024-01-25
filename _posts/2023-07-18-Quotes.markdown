@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Best Quotes"
+date:   2023-07-18 01:30:24 +0100
+categories: jekyll update
+---
+
+> Quote from Little Prince
+> >  It is only with the heart that one can see rightly, what is essential is invisible to the eye
+
+> Quote by Albert Einstein
+> >  Not everything that can be counted counts and not everything that counts can be counted
