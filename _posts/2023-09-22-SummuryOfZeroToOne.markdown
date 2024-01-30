@@ -1,8 +1,8 @@
 ---
 
 layout: single
-title:  "Top 10 new albums of 2021"
-date:   2021-12-27 15:13:50 +0000
+title:  "Summary of Zero To One Book"
+date:   2023-09-22 15:13:50 +0000
 
 ---
 
