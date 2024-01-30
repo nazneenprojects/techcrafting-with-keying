@@ -1,11 +1,11 @@
 ---
 
 layout: single
-title: About
+title: Nazneen Portfolio
 permalink: /about/
 
 ---
-# Nazneen Portfolio
+
 
 ---
 
