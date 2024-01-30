@@ -1,6 +1,6 @@
 ---
 
-layout: post
+layout: single
 title:  "On the way to Harz Mountain'"
 date:   2024-01-21 19:46:24 +0100
 
