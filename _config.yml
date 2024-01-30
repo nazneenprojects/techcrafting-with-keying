@@ -64,14 +64,14 @@ defaults:
       show_date: true
 
 # Collections
-collections:
-  now:
-    output: true
-    permalink: /:collection/:path/
+# collections:
+#   now:
+#    output: true
+#    permalink: /:collection/:path/
 
-category_archive:
-  type: liquid
-  path: /categories/
+# category_archive:
+#   type: liquid
+#  path: /categories/
 
 footer:
   links:
