@@ -60,7 +60,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       show_date: true
 
 # Collections
