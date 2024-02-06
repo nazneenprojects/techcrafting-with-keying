@@ -16,7 +16,7 @@ published: false
 
 > 'Experincing Life - there is clear separation line between experincing life / to be in that moment and to loose your conciousness due to triggers'
 
-> 'Good Decesion: People Seek Truth | chhose in advance | Stick to given inputs | Minimum unconcious bias | Fully connected Information sharing | Made quickly with few meetings | Lightweight procss | history recorded'
+> 'Good Decesion: People Seek Truth | choose in advance | Stick to given inputs | Minimum unconcious bias | Fully connected Information sharing | Made quickly with few meetings | Lightweight procss | history recorded'
 
 > 'Bad Decesion: People Seek Right | no clarity | Second guessing | Suffers from unconscious bias | Partial connected Information sharing | Made slowly with many meetings | Heavy weight process | memory fades'
 
