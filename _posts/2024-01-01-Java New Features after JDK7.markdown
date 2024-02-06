@@ -7,8 +7,8 @@ published: true
 
 ---
 ## 1. Java 8 :
-      1. Before JDK 8 , interface type could have only public abstract methods.  JDK8 introduced 'default' method and public 'static ' methods . 
-      2. JDK 9, introduced private methods in interface , both static and non-static.
+      1. Before JDK 8 , interface type could have only public abstract methods.  JDK8 introduced 'default' method and public 'static ' methods. All these new method types are concrete methods.
+      2. JDK 9, introduced private methods in interface , both static and non-static. All these new method types are concrete methods.
       
 
 ---
