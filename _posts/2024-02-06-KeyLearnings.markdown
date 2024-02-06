@@ -12,7 +12,7 @@ published: false
 
 > 'Do not invest in time if you are going to get mediocre Output'
 
-> 'Secrete of happy relationship is to avoid negative things rather than making it and trying to be perfect'
+> 'Secrete of happy relationship is to avoid negative things rather than making it perfect'
 
 > 'Experincing Life - there is clear separation line between experincing life / to be in that moment and to loose your conciousness due to triggers'
 
