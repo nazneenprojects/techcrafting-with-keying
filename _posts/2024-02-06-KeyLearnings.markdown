@@ -27,6 +27,8 @@ published: false
 > Drink 1 glass of warm water every morning slowly'
 
 > 'Jogging and physical excerice helps in creating - New Human brain cells. These cells helps you in learning new things and in new discovery '
+
+> Expact Brain : In new Culture manage it with self-compassion, intention and repetition, and then it all becomes easier!
  
 
 
