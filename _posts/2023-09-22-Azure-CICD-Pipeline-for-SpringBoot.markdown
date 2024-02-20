@@ -7,7 +7,13 @@ Prerequisites :
 
 Steps :
   1.  Go to your DevOps Organization -> agent pool -> create new agent based on your VM or local machine OS
+     ![Screenshot from 2024-02-20 19-13-27](https://github.com/nazneenprojects/techcrafting-with-keying/assets/50543241/1224ded8-8c6f-4dfe-8c5f-b100b7848590)
+
+     ![Screenshot from 2024-02-20 19-13-02](https://github.com/nazneenprojects/techcrafting-with-keying/assets/50543241/1c2e6216-dcc4-43ac-9845-9ea075db5972)
+
   2.  Configure and run it using ./config.sh and ./run.sh
+     
+     ![Screenshot from 2024-02-20 19-22-41](https://github.com/nazneenprojects/techcrafting-with-keying/assets/50543241/05094925-dd34-4c99-87b2-57dbfd93a62b)
 
 ```
 admin@admin:/myagent$ cd ..
@@ -61,10 +67,11 @@ Error reported in diagnostic logs. Please examine the log for more details.
 2024-02-20 18:00:45Z: Agent reconnected. 
 ```
 
+  ![Screenshot from 2024-02-20 19-26-46](https://github.com/nazneenprojects/techcrafting-with-keying/assets/50543241/c1f2891d-0f82-4b5f-a9cb-6c0854994055)
 
  
-  4.  Once agent starts, you will see running status in your agent pool -> agent section
-  5.  Create Project for CICD pipleline under your organization
-  6.  Now its time to connect code repository . If you are using Github, bitbucket etc Azure give you proviion to link your account in DevOps platform. Go to pipeline section -> Repository -> click on Github -> Authentiacte and select repository.
-  7.  On Github , you can create simple SpringBoot project with maven support and add azure-pipeline.yaml file to execute the CICD pipeline
-  8.  
+  3.  Once agent starts, you will see running status in your agent pool -> agent section
+  4.  Create Project for CICD pipleline under your organization
+  5.  Now its time to connect code repository . If you are using Github, bitbucket etc Azure give you proviion to link your account in DevOps platform. Go to pipeline section -> Repository -> click on Github -> Authentiacte and select repository.
+  6.  On Github , you can create simple SpringBoot project with maven support and add azure-pipeline.yaml file to execute the CICD pipeline
+    
