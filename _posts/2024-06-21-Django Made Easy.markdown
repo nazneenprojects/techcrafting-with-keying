@@ -21,12 +21,16 @@ published: true
 * Other Famework : Flask, CherryPie, Web2Py, Pyramid
 
 ### Setup
-1.Install Python
-2.Create Virtual Enviorment `install virtualenv`
-3.Actiavte virtial Enviorment `<path of project dir>\env\scripts\activate`
- Note: You can install all required python packages within this local project enviorment. if you want to install globally, then just deactivate virtual enviorment using  `<path of project dir>\env\scripts\dectivate`
-4. install `pip install django` (best way to use virtual env). type `pip list` to check instaled packed
-5. `django-admin` to list all django commands
+* Install Python
+* Create Virtual Enviorment `install virtualenv`
+* Actiavte virtial Enviorment `<path of project dir>\env\scripts\activate`
+ Note: You can install all required python packages within this local project enviorment. if you want to install globally, then just deactivate virtual enviorment using
+ `<path of project dir>\env\scripts\dectivate`
+* install `pip install django` (best way to use virtual env). type `pip list` to check instaled packed
+* `django-admin` to list all django commands
+* To create Project `django-admin startproject <project-name>`
+* cd into project-name directory
+* Run this run project `python manage.py runserver`
 
 
 
