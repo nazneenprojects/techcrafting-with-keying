@@ -36,9 +36,18 @@ published: true
 
 ### MVT Architectural Style
 
-### Tech concepts
+Model: The Model is going to act as the interface of your data. It is responsible for maintaining data. It is the logical data structure behind the entire application and is represented by a database (generally relational databases such as MySql, Postgres).
 
-### Building Basic Web Project
+View: The View is the user interface that you see in your browser when you render a website. It is represented by HTML/CSS/Javascript and Jinja files.
 
-`x = 3`
+Template: A Template consists of static parts of the desired HTML output as well as some special syntax describing how dynamic content will be inserted.
+
+Reference - 
+https://dev.to/sm0ke/django-tutorial-mvt-architecture-custom-commands-19nb
+https://www.geeksforgeeks.org/django-project-mvt-structure/
+
+
+### Basic Web Project
+
+
   
