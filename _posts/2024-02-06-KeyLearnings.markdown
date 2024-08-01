@@ -29,6 +29,9 @@ published: true
 > 'Jogging and physical excerice helps in creating - New Human brain cells. These cells helps you in learning new things and in new discovery '
 
 > Expat Brain (Relocation tip): In new Culture manage it with self-compassion, intention and repetition, and then it all becomes easier!
+
+> Teach Yourself Programming in Ten Years
+> https://norvig.com/21-days.html
  
 
 
