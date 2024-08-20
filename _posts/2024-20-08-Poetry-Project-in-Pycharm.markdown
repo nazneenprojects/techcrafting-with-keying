@@ -6,6 +6,7 @@ date:   2024-20-08 15:46:24 +0100
 published: true
 
 ---
+
 ## How to create Poetry Project in PyCharm?
 
 1.  In PyCharm Terminal , go to specific directory and and type command - 'poetry new Project-Name'
