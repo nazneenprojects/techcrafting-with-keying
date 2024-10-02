@@ -9,7 +9,7 @@ url: "https://nazneenprojects.github.io"
 logo: "/assets/images/logo_3.png"
 github_username:  nazneenprojects
 repository: nazneenprojects/techcrafting-with-keying
-github: [metadata]
+#github: [metadata]
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes@4.24.0
@@ -20,6 +20,8 @@ search: true
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag  # This is a commonly used plugin for SEO on GitHub Pages
+
 
 # Site Author
 author:
