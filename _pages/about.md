@@ -41,7 +41,7 @@ Nazneen Mulani
 - **Storage:**
   - MySQL, Oracle, Postgres, AWS S3, AWS RDS, MongoDB, JSON, Azure Storage
 - **Processes:**
-  - SAFe 6 Agile practices - Scrum | Kanban | OKR, ITIL Certified, Six Sigma trained, Project Management trained, System Design trained, Design Thinking trained, SDLC, V-Model
+  - SAFe 6 Agile practices - Scrum , Kanban , OKR, ITIL Certified, Six Sigma trained, Project Management trained, System Design trained, Design Thinking trained, SDLC, V-Model
 
 ---
 
