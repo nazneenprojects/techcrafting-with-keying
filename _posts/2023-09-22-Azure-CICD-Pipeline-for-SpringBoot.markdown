@@ -1,4 +1,4 @@
-# How to set up Azure-CICD-pipeline for SpringBoot Project
+# How to set up Azure CICD Pipeline for SpringBoot Project
 
 Prerequisites : 
  - Microsoft Azure DevOps credentials
