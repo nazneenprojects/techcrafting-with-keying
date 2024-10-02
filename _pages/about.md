@@ -35,11 +35,11 @@ Nazneen Mulani
 - **Languages:**
   - Java, Python 3, HTML, CSS, JavaScript, C#, C++, Perl, SQL
 - **Framework:**
-  - Spring Boot, Spring MVC, Struts, JSF, Hibernate, .NET; Junit, Jekyll
+  - FastAPI Spring Boot, Spring MVC, Struts, JSF, Hibernate, .NET; Junit, Jekyll
 - **Tools:**
   - Eclipse, IntelliJ, Visual Studio, VScode, WebLogic, JBoss, Softing DTS, Doors, Installshield, Postman, Jira, Bitbucket, Gitlab, Git, Atlassian tools, CI/CD, Jenkins, Visio, PuTTY, Curl, Wget, Softing DTS, Miro, Grafana, Dynatrace, Figma
 - **Storage:**
-  - MySQL, Oracle, Postgres, AWS S3, AWS RDS, MongoDB, JSON
+  - MySQL, Oracle, Postgres, AWS S3, AWS RDS, MongoDB, JSON, Azure Storage
 - **Processes:**
   - SAFe 6 Agile practices - Scrum | Kanban | OKR, ITIL Certified, Six Sigma trained, Project Management trained, System Design trained, Design Thinking trained, SDLC, V-Model
 
