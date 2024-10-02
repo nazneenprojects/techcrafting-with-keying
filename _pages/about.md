@@ -68,10 +68,15 @@ Nazneen Mulani
 ---
 
 ## Work Experience
+### Trainee Internship | KreativeStorm, Germany
 
+- **Duration:** 2024
+- **Description:**
+  - Python3, REST, json, FastAPI, SQLAlchemy
+    
 ### Software Engineer | StiboDx, Germany
 
-- **Duration:** 2022 - Present
+- **Duration:** 2024
 - **Description:**
   - Improvement, customization & support for Content Management System Software for global media companies to design & publish articles/stories.
   - Technologies: Java, REST API, Linux, Docker, K8s, IaC, KongAPI, AWS-S3, RDS, EC2, ELB, CloudFront, Jenkins.
@@ -138,6 +143,6 @@ Nazneen Mulani
 
 ## Copyright
 
-Copyright@2023
+Copyright@2024
 
 
