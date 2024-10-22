@@ -44,6 +44,9 @@ Behavioral patterns are the best practices of how you make your objects interact
 
 ### Design patterns are low level and concrete. They are at the class level and address how classes are instantiated, structured, and orchestrated. On the other hand, architectural patterns are high level and abstract. They're at the module level and address global concerns such as security, performance, and maintainability, et cetera. 
 
+### Builder :
+Builder is a creational design pattern. It addresses an Anti-pattern called telescoping constructor. An Anti-pattern is the opposite of the best programming practice and what we want to avoid. The telescoping constructor Anti-pattern occurs when a software developer attempts to build a complex object using an excessive number of constructors. Think of a scenario in which you're trying to build a car. This test requires various car parts to be first constructed individually, and then assembled. The Builder Pattern brings order to this chaotic process to remove unnecessary complexity as much as possible. It partitions the process of building a complex object into four different roles. The first role is a director in charge of actually building a product. The second role provides all the necessary interfaces required in building an object. We call this one an Abstract builder because there'll be a ConcreteBuilder inheriting from it. The ConcreteBuilder class inherits from the Abstract builder class and actually implements the details of the interfaces of the Abstract builder class for the specific type of a product. The product role represents an object being built. The Builder Pattern does not rely on polymorphism. The focus of the Builder Pattern is on reducing the complexity of building an elaborate object through a divide and conquer strategy.
+
 
 
 
