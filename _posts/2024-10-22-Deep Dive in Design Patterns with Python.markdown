@@ -22,7 +22,7 @@ published: true
 
 
 ### Inheritance : 
-Estabish relation between child and classes as a Parent and child
+Establish relation between child and classes as a Parent and child
 ### Polymorphism :
 Relies on Inheritance
 Polymorphism relies on inheritance and it allows us to instantiate a child class and treat it as the same type as its parent. In other words, polymorphism enables a parent class to be a placeholder for its child classes.
