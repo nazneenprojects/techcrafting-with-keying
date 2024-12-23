@@ -25,8 +25,8 @@ permalink: /about/
 
 Nazneen Mulani
 
-- **Occupation:** Software Artificer
-- **Location:** Germany 🇩🇪
+- **Occupation:** Software Engineer
+- **Location:** India 🇮🇳 Germany 🇩🇪
 
 ---
 
@@ -68,48 +68,11 @@ Nazneen Mulani
 ---
 
 ## Work Experience
-### Trainee Internship | KreativeStorm, Germany
 
-- **Duration:** 2024
-- **Description:**
-  - Python3, REST, json, FastAPI, SQLAlchemy
-    
-### Software Engineer | StiboDx, Germany
+I’m a passionate software engineer and tech enthusiast with over 8 years of experience building robust software applications that drive business success in the Cummins India, Volkswagen India, and StiboDX Germany industries 🚀. I hold a Master of Technology (M.Tech) in Computer Science, which has further strengthened my expertise in Research, Design, and Development. I enjoy creating innovative solutions to complex problems, writing tech content, and exploring emerging technologies to stay at the forefront of innovation.
 
-- **Duration:** 2024
-- **Description:**
-  - Improvement, customization & support for Content Management System Software for global media companies to design & publish articles/stories.
-  - Technologies: Java, REST API, Linux, Docker, K8s, IaC, KongAPI, AWS-S3, RDS, EC2, ELB, CloudFront, Jenkins.
+Now a days I am more into Backend Development using Python with add on tech skills including Cloud, Deploments, DecOps, AI etc. Also contributing my skills as freealncer in Tech industries 
 
-### Senior Software Engineer | Volkswagen IT Services, India
-
-- **Duration:** 2019 - 2022
-- **Description:**
-  - Developing frontend & backend of web application using JSF, Prime faces, Spring, Oracle, REST, Jython.
-  - POC in ReactJS & Spring Boot to make current application compatible with all browsers by using modernize tech stack & architecture.
-  - Other Contributions: Technical Design, Code Reviews, Stakeholder communication, Requirement gathering, estimation & project delivery, and L3 support.
-
-### IT Application Analyst | Cummins Inc., India
-
-- **Duration:** 2019
-- **Description:**
-  - Development of web application using JSP, Spring, Shell script, SQL.
-
-### Controls Software Engineer with Product Ownership | Cummins Inc., India
-
-- **Duration:** 2015 - 2018
-- **Description:**
-  - Development of desktop and web-based applications for ECU calibration diagnostics, Calibration format conversions, report generation, tool upgrades.
-  - Technologies: Java, SWING, C#, C++ assembly creation.NET, Perl, SQL, Apache Server, Data Driven Approach.
-  - Six Sigma - DMAIC trained.
-
-### Intern | NCR Corp., India
-
-- **Duration:** Jul 2014 - Nov 2014
-- **Description:**
-  - Worked on analysis of Java REST web service and created POC application.
-
----
 
 ## Education
 
