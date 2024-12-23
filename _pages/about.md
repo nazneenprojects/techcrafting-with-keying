@@ -71,7 +71,7 @@ Nazneen Mulani
 
 I’m a passionate software engineer and tech enthusiast with over 8 years of experience building robust software applications that drive business success in the Cummins India, Volkswagen India, and StiboDX Germany industries 🚀. I hold a Master of Technology (M.Tech) in Computer Science, which has further strengthened my expertise in Research, Design, and Development. I enjoy creating innovative solutions to complex problems, writing tech content, and exploring emerging technologies to stay at the forefront of innovation.
 
-Now a days I am more into Backend Development using Python with add on tech skills including Cloud, Deploments, DecOps, AI etc. Also contributing my skills as freealncer in Tech industries 
+Now a days I am more into Backend Development using Python with add on tech skills including Cloud, Deployments, DevOps, AI etc. Also contributing my skills as freealncer in Tech industries 
 
 
 ## Education
