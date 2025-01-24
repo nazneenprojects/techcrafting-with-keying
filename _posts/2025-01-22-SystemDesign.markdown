@@ -13,13 +13,27 @@ published: true
 - Cost Effectiveness
 
 
-# Parameters to evaluate :
+### Parameters to evaluate :
 | Params          | local       | cloud service |
 | :---            |    :----:   |          ---: |
 | simplicity      | lower       | Higher        |
 | Fidelity        | Equivalent  |Equivalent     |
 | Cost of Impl    |  Higher     | lower         |
 
-# Cloud Service Providers :
+### Cloud Service Providers :
 - server
 - serverless
+
+### Latency and Throughput Definitions:
+
+Latency: Time delay between initiating a request and receiving a response. Measures how quickly a single task or transaction is completed.
+
+Throughput: Number of tasks or transactions processed in a given time period. Measures overall system capacity and performance.
+
+Simple analogy:
+- Latency = Speed of a single delivery truck
+- Throughput = Total number of packages delivered by all trucks in a day
+
+Key differences:
+- Low latency means fast individual responses
+- High throughput means processing many tasks simultaneously
