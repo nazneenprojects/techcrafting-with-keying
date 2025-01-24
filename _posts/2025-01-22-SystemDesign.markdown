@@ -24,6 +24,13 @@ published: true
 - server
 - serverless
 
+### server Vs serverless :
+| Params          | local       | cloud service |
+| :---            |    :----:   |          ---: |
+| Ease of use     | lower       |  Higher       |
+| Efficiency      | Higher      |  lower        |
+| Responsiveness  |  Higher     |  lower        |
+
 ### Latency and Throughput Definitions:
 
 Latency: Time delay between initiating a request and receiving a response. Measures how quickly a single task or transaction is completed.
@@ -37,3 +44,5 @@ Simple analogy:
 Key differences:
 - Low latency means fast individual responses
 - High throughput means processing many tasks simultaneously
+
+
