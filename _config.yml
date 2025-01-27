@@ -42,9 +42,9 @@ author:
     - label: "LinkedIn"
       icon: "fas fa-retweet" 
       url: "https://www.linkedin.com/in/nazneen-mulani-05004012a/"
-    - label: "Discord"
+    - label: "Discord @mul_naz"
       icon: "fas fa-thumbtack"
-      url: "@mul_naz"
+      url: "https://discord.com/"
 
 include: ["_pages"]
 
