@@ -58,11 +58,12 @@ Key differences:
 - then ISP routes the request to specific CDN to render webpage
 
 ### How to choose DB ?
-| Params                | SQL  | NoSQL |
-| --------------------- | :--: | :---: |
-| Simplicity            | Yes  | No    |
-| Fidelity              | Yes  | No    |
-| Cost Effectiveness    | Yes  | Yes   |
+| Params             | SQL | NoSQL |
+|--------------------|:---:|:-----:|
+| Simplicity         | Yes |  No   |
+| Fidelity           | Yes |  No   |
+| Cost Effectiveness | Yes |  Yes  |
+
 
    
 
