@@ -14,6 +14,7 @@ published: true
 
 
 ### Parameters to evaluate :
+
 | Params          | Local        | Cloud Service |
 |-----------------|:------------:|--------------:|
 | Simplicity      | Lower        | Higher        |
@@ -27,6 +28,7 @@ published: true
 - serverless
 
 ### server Vs serverless :
+
 | Params          | Local        | Cloud Service |
 |-----------------|:------------:|--------------:|
 | Ease of Use     | Lower        | Higher        |
