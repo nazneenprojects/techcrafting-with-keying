@@ -14,22 +14,24 @@ published: true
 
 
 ### Parameters to evaluate :
-| Params          | local       | cloud service |
-| :---            |    :----:   |          ---: |
-| simplicity      | lower       | Higher        |
-| Fidelity        | Equivalent  |Equivalent     |
-| Cost of Impl    |  Higher     | lower         |
+| Params          | Local        | Cloud Service |
+| :-------------- | :----------: | ------------: |
+| Simplicity      | Lower        | Higher        |
+| Fidelity        | Equivalent   | Equivalent    |
+| Cost of Impl    | Higher       | Lower         |
+
 
 ### Cloud Service Providers :
 - server
 - serverless
 
 ### server Vs serverless :
-| Params          | local       | cloud service |
-| :---            |    :----:   |          ---: |
-| Ease of use     | lower       |  Higher       |
-| Efficiency      | Higher      |  lower        |
-| Responsiveness  |  Higher     |  lower        |
+| Params          | Local        | Cloud Service |
+| :-------------- | :----------: | ------------: |
+| Ease of Use     | Lower        | Higher        |
+| Efficiency      | Higher       | Lower         |
+| Responsiveness  | Higher       | Lower         |
+
 
 ### Latency and Throughput Definitions:
 
@@ -55,6 +57,12 @@ Key differences:
 - Webpage - Router - ISP - DNS - (website DN to IP address)
 - then ISP routes the request to specific CDN to render webpage
 
+### How to choose DB ?
+| Params                | SQL  | NoSQL |
+| --------------------- | :--: | :---: |
+| Simplicity            | Yes  | No    |
+| Fidelity              | Yes  | No    |
+| Cost Effectiveness    | Yes  | Yes   |
 
    
 
