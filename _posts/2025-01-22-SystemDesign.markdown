@@ -15,10 +15,11 @@ published: true
 
 ### Parameters to evaluate :
 | Params          | Local        | Cloud Service |
-| :-------------- | :----------: | ------------: |
+|-----------------|:------------:|--------------:|
 | Simplicity      | Lower        | Higher        |
 | Fidelity        | Equivalent   | Equivalent    |
 | Cost of Impl    | Higher       | Lower         |
+
 
 
 ### Cloud Service Providers :
@@ -27,10 +28,11 @@ published: true
 
 ### server Vs serverless :
 | Params          | Local        | Cloud Service |
-| :-------------- | :----------: | ------------: |
+|-----------------|:------------:|--------------:|
 | Ease of Use     | Lower        | Higher        |
 | Efficiency      | Higher       | Lower         |
 | Responsiveness  | Higher       | Lower         |
+
 
 
 ### Latency and Throughput Definitions:
