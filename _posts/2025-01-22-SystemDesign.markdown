@@ -50,6 +50,12 @@ Key differences:
 2. CDN (content delivery network) : server spread across the globe, Dynamic Data will be stored here in DB.
 
    Note : CDN do not stores dynamic data. if it tries to do this, it will case update problem due to low latency and difficult to monitor consisteny.
+
+### How does the internet work?
+- Webpage - Router - ISP - DNS - (website DN to IP address)
+- then ISP routes the request to specific CDN to render webpage
+
+
    
 
 
