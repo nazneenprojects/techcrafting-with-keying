@@ -71,6 +71,14 @@ Key differences:
 ### Debugging the trenches -
 - Logging & Monitoring. Example Cloudwatch
 - Observalibity and Anamoly Detection. Example, Google Analytics.
+- Check if your system is reliable by : 1. Check for points of failure by which entire system may collapse ? 2. Any external dependncy is prone to failure
+
+### How to avoid such failure problems?
+- Redundancy (having multiple vendors / providers)
+- Cloud services are known for their reliability. This is one reason to move all your services under a single cloud like AWS, GCP or Azure.
+- Graceful Degradation. (Giving clear message on webpage)
+- 
+
 
 
    
