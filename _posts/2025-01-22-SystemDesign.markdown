@@ -1,5 +1,4 @@
 ---
-
 layout: single
 title:  "System Design Notes"
 date:   2025-01-23 15:46:24 +0100
@@ -68,6 +67,10 @@ Key differences:
 | Simplicity         | Yes |  No   |
 | Fidelity           | Yes |  No   |
 | Cost Effectiveness | Yes |  Yes  |
+
+### Debugging the trenches -
+- Logging & Monitoring. Example Cloudwatch
+- Observalibity and Anamoly Detection. Example, Google Analytics.
 
 
    
