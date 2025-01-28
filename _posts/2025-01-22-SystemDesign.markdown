@@ -84,8 +84,9 @@ Key differences:
  - Implementing new features such as real time video / photo rendering. Parametrs to consider - Tech Cost, Frequency of usgae, cost of storing data
 (Note: Meet all requirements : 1. Simple 2. Optimization)
 
-
-   
+Externally visible code pieces:
+- API agrrement
+- SLAs 
 
 
 
