@@ -77,8 +77,12 @@ Key differences:
 - Redundancy (having multiple vendors / providers)
 - Cloud services are known for their reliability. This is one reason to move all your services under a single cloud like AWS, GCP or Azure.
 - Graceful Degradation. (Giving clear message on webpage)
-- 
 
+ ### Hard Questions Examples -
+ - Should I go with Microservice architecture?
+ - Will using Nodejs is better option?
+ - Implementing new features such as real time video / photo rendering. Parametrs to consider - Tech Cost, Frequency of usgae, cost of storing data
+(Note: Meet all requirements : 1. Simple 2. Optimization)
 
 
    
