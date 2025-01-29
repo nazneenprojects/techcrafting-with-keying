@@ -105,6 +105,7 @@ Externally visible code pieces:
 # Scaling
 - Horizontal scaling
 - Vertical scaling
+- Hybird scaling (vertical scaling followed by Horizonztal scaling)
 
 
   
