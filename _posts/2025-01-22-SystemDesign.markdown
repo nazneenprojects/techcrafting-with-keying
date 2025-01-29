@@ -102,6 +102,10 @@ Externally visible code pieces:
 - Stateless : Routing Logic is within function. Example Round Robin
 - Stateful: Routing logic is stored in memory (state = Memory) Example, Least connections
 
+# Scaling
+- Horizontal scaling
+- Vertical scaling
+
 
   
   
