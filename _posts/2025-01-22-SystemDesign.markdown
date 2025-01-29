@@ -102,14 +102,35 @@ Externally visible code pieces:
 - Stateless : Routing Logic is within function. Example Round Robin
 - Stateful: Routing logic is stored in memory (state = Memory) Example, Least connections
 
-# Scaling
+### Scaling
 - Horizontal scaling
 - Vertical scaling
 - Hybrid scaling (vertical scaling followed by Horizonztal scaling) and use Weightes Round Robin Algorithm
 
+### Database - like memory, cache-like Recall
+- Example , Product Page is slow :
+- Checks the api calls through logs and network tab in browser
+- Check CDN
+- Chec page speed
+- Check getting list of product list from server is taking time
+  
+  #### How to reduce latency?
+  - Get the data a system needs close to it
+  - Asynchronous call to server and then DB fetch is faster
+  - Server side caching : Stores data using Map , Key-Value, List
+  - Static data load from CDN
+  - Caching approach - 1. In memory Cache 2. Centralized Cache
 
-  
-  
+  ### Centralized Cache
+   - Extremly fast
+   - Simple to implement,
+   - Restarting the server requires re-populating the cache,
+   - Difficult to maintain data consistency across all the caches
+     
+   ### Centralized Cache
+  - Data duplication is much lesser
+  - Scaling the cache is easier
+  - Great for scenariois where the need is extremely low latency 
 
 
 
