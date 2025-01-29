@@ -94,6 +94,8 @@ Externally visible code pieces:
 - Option 2 - mirgating to another cloud
 - Option 3 - cheaper alternative solution : 1. Reserve entire instances for our company. 2. Book larger instance
 - Drawback - Not able to reserve capacity efficiently. No availability of auto-scaling, instance is single point of failure. Using a fleet of smaller servers.
+- Problem with having multiple small servers - redirecting request in case one of the instance crahses 2. Judiciously utilising all the resources avaialble.
+- Sulotion : use load balanacer (load balancer) or elastic load balancer (low latency)
 
 
 
