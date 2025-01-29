@@ -114,23 +114,42 @@ Externally visible code pieces:
 - Chec page speed
 - Check getting list of product list from server is taking time
   
-  #### How to reduce latency?
+#### How to reduce latency?
   - Get the data a system needs close to it
   - Asynchronous call to server and then DB fetch is faster
   - Server side caching : Stores data using Map , Key-Value, List
   - Static data load from CDN
   - Caching approach - 1. In memory Cache 2. Centralized Cache
 
-  ### Centralized Cache
+### Centralized Cache
    - Extremly fast
    - Simple to implement,
-   - Restarting the server requires re-populating the cache,
-   - Difficult to maintain data consistency across all the caches
+   - Restarting the server requires re-populating the cache (cons)
+   - Difficult to maintain data consistency across all the caches (cons)
+   - Great for scenariois where the need is extremely low latency 
      
-   ### Centralized Cache
+### Centralized Cache
   - Data duplication is much lesser
   - Scaling the cache is easier
-  - Great for scenariois where the need is extremely low latency 
+  - Example. Redis, Memcached
+  
+### How is data distributed among cache servers?
+Option 1 : Whatever the servers asks for 
+Option 2 : Strategically place data to avoid duplication ( Sharding : Spliting data into cache according to property. Hashing technique : hasg (t-shirt_id) ). 
+Its Load balancing. No duplication.
+
+Problem - What if one of the cache server crashes
+Solution - Auto-recover the system
+
+Problem - one of the cache server crshaed
+- Removal of server
+- Addition of server
+
+Problem - Cache warmup or readiness takes lot of time
+Solution - Consistent Hashing
+
+
+
 
 
 
