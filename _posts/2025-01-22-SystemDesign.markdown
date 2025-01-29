@@ -89,6 +89,12 @@ Externally visible code pieces:
 - API agrrement
 - SLAs 
 
+### When the serverless become expensive ? Serverless or Server-More?
+- Option 1 - Server : host & manage own servers
+- Option 2 - mirgating to another cloud
+- Option 3 - cheaper alternative solution : 1. Reserve entire instances for our company. 2. Book larger instance
+- Drawback - Not able to reserve capacity efficiently. No availability of auto-scaling, instance is single point of failure. Using a fleet of smaller servers.
+
 
 
 
