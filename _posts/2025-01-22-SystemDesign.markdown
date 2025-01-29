@@ -98,7 +98,13 @@ Externally visible code pieces:
 - Sulotion : use load balanacer (Round robin algo) or elastic load balancer (low latency)
 
 
+### Load Balanacing Algorithms
+- Stateless : Routing Logic is within function. Example Round Robin
+- Stateful: Routing logic is stored in memory (state = Memory) Example, Least connections
 
+
+  
+  
 
 
 
