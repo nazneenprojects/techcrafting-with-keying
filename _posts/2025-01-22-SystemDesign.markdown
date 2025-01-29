@@ -121,7 +121,7 @@ Externally visible code pieces:
   - Static data load from CDN
   - Caching approach - 1. In memory Cache 2. Centralized Cache
 
-### Centralized Cache
+### In Memory Cache
    - Extremly fast
    - Simple to implement,
    - Restarting the server requires re-populating the cache (cons)
@@ -132,6 +132,8 @@ Externally visible code pieces:
   - Data duplication is much lesser
   - Scaling the cache is easier
   - Example. Redis, Memcached
+
+Example, On e-commerce website t shirts data are stored such as - Most Popular T shirts, New arrivals, Users Recently Viewed
   
 ### How is data distributed among cache servers?
 Option 1 : Whatever the servers asks for 
