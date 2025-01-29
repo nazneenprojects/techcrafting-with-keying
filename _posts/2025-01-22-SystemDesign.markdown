@@ -105,7 +105,7 @@ Externally visible code pieces:
 # Scaling
 - Horizontal scaling
 - Vertical scaling
-- Hybird scaling (vertical scaling followed by Horizonztal scaling)
+- Hybird scaling (vertical scaling followed by Horizonztal scaling) and use Weightes Round Robin Algorithm
 
 
   
