@@ -150,6 +150,7 @@ Problem - one of the cache server crshaed
 Problem - Cache warmup or readiness takes lot of time
 Solution - Consistent Hashing
 
+## Cache
 ### Cache Implementation -
 - Drawback :  Inconsistent data between DB and cache
 - Solution : Update Cache infrequently
@@ -184,8 +185,15 @@ Solution - Consistent Hashing
    - New Arrivals
    - User's Recently viewed
      - only top 1000 active users : a. Most frequent users b. Most recently active users
-       #### Eviction Policy:
+     #### Eviction Policy:
      - a. Most frequent users :Use  "Least frequently used (LFU)" to delete the entry for top 1000 active users if cache needs space
      - b. Most recently active users : "Least Recently Used (LRU)" to de
 
+### Cache Performance depends upon :
+- Eviction policy
+- Write Policy
+- Placement of Cache (s)
+- Data Distribution
+
+## Jitter
 
