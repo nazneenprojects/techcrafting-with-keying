@@ -5,12 +5,11 @@ date:   2025-01-28 12:35:00 +0100
 published: true
 ---
 
-## Examples and Concepts:
+# Examples and Concepts: Long Polling | Web Sockets
 
 - **Examples**: Simple chat or comment systems where real-time but slightly delayed updates (near real-time) are acceptable, Notification systems for less frequent updates (e.g., Gmail’s "new email" alert), Legacy systems where WebSockets aren’t feasible.
 - **Concept**: Long Polling 
 
-# Long Polling
 ### Long Polling
 Long polling is a technique that mimics real-time behavior by keeping HTTP requests open until the server has data.
 
