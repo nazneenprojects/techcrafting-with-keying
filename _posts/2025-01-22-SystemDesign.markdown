@@ -160,8 +160,25 @@ Solution - Consistent Hashing
 - Problem : To get the Most popular data into cache after some time interval
 - Solution : set - Cache Expiry
   
-- Problem : To deisgn the cache consistent with DB
-- Solution : Consistent Cache with Write Policy
+- Problem : To deisgn the cache consistent with DB - Update to the DB, read from the cache
+- Solution : Consistent Cache with WRITE Policy
+
+  Redis offers :
+  1. write-through policy
+     - All updates to the cache are also updated in the DB  (First update DB and then update Cache)
+     - Payment data cache
+       
+  2. write behind policy
+     - All updates go only to the cache initially and the DB is updated later (First update cahce and then update DB)
+     - Number of views to the product stored in cache
+  3. write-aside policy
+  4. write-around policy
+
+  Mem cached by Meta offers many features too. One below -
+  1. Look-aside Cache
+     - Keep Cache and DB as separate entity. Update the DB independently and update the cache independently.
+       
+ 
 
 
 
