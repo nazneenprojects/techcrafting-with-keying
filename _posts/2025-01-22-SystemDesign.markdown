@@ -178,8 +178,14 @@ Solution - Consistent Hashing
   1. Look-aside Cache
      - Keep Cache and DB as separate entity. Update the DB independently and update the cache independently.
        
- 
-
-
+ ### Cache designing Access Patterns
+- Example Cache can have info on :
+   - Most Popular
+   - New Arrivals
+   - User's Recently viewed
+     - only top 1000 active users : a. Most frequent users b. Most recently active users
+       #### Eviction Policy:
+     - a. Most frequent users :Use  "Least frequently used (LFU)" to delete the entry for top 1000 active users if cache needs space
+     - b. Most recently active users : "Least Recently Used (LRU)" to de
 
 
