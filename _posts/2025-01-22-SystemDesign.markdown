@@ -157,7 +157,11 @@ Solution - Consistent Hashing
 - Drawback :  Objects in cache are very heavey
 - Solution : Store only necessasry data
 
-
+- Problem : To get the Most popular data into cache after some time interval
+- Solution : set - Cache Expiry
+  
+- Problem : To deisgn the cache consistent with DB
+- Solution : Consistent Cache with Write Policy
 
 
 
