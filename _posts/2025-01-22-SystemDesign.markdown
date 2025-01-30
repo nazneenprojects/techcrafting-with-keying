@@ -179,7 +179,7 @@ Solution - Consistent Hashing
   1. Look-aside Cache
      - Keep Cache and DB as separate entity. Update the DB independently and update the cache independently.
        
- ### Cache designing Access Patterns
+### Cache designing Access Patterns
 - Example Cache can have info on :
    - Most Popular
    - New Arrivals
