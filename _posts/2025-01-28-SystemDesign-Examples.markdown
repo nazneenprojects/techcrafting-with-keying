@@ -43,7 +43,7 @@ Cons ❌
 
 - **Examples**: Live chat and collaboration tools (Slack, Google Docs, etc.), Multiplayer online games with real-time state synchronization, Live sports/financial dashboards that need to push frequent updates.
 - **Concept**: Web Socket
-- 
+
 ### WebSockets
 WebSockets provide a full-duplex, persistent connection between the client and the server.
 
