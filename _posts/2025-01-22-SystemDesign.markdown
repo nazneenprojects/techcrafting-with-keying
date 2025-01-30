@@ -150,7 +150,11 @@ Problem - one of the cache server crshaed
 Problem - Cache warmup or readiness takes lot of time
 Solution - Consistent Hashing
 
-
+Cache Implementation -
+- Drawback :  Inconsistent data between DB and cache
+- Drawback :  Objects in cache are very heavey
+- Solution : Store only necessasry data
+- 
 
 
 
