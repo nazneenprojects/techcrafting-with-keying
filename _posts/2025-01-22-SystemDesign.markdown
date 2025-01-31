@@ -195,5 +195,39 @@ Solution - Consistent Hashing
 - Placement of Cache (s)
 - Data Distribution
 
-## Jitter
+## HTTP Status Codes: Understanding API Responses
+Each API response includes an HTTP status code, which indicates the result of the request.
+
+Using meaningful status codes is important for helping consumers of your API understand why a request might have failed and how they can fix or retry it.
+
+
+#### Common status codes include:
+
+2xx (Success): The request was successfully received and processed.
+
+200 OK: The request succeeded.
+
+201 Created: A new resource was successfully created.
+
+204 No Content: The request succeeded, but there is no content to return.
+
+3xx (Redirection): Further action is needed to complete the request (e.g., a different endpoint or resource location).
+
+4xx (Client Error): There was an error in the request sent by the client.
+
+400 Bad Request: The request was malformed or invalid.
+
+401 Unauthorized: Authentication is required or has failed.
+
+403 Forbidden: The client does not have permission to access the resource.
+
+404 Not Found: The requested resource does not exist.
+
+429 Too Many Requests: Rate limit exceeded.
+
+5xx (Server Error): The server encountered an error while processing the request.
+
+500 Internal Server Error: A general error occurred on the server.
+
+503 Service Unavailable: The server is currently unable to handle the request, often due to maintenance or overload.
 
