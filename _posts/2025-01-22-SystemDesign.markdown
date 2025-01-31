@@ -189,6 +189,7 @@ Solution - Consistent Hashing
      - a. Most frequent users :Use  "Least frequently used (LFU)" to delete the entry for top 1000 active users if cache needs space
      - b. Most recently active users : "Least Recently Used (LRU)" to de
 
+![image](https://github.com/user-attachments/assets/3205131f-66da-4013-bd33-593485c88b86)
 
 
 
