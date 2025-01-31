@@ -50,7 +50,7 @@ Key differences:
 - Low latency means fast individual responses
 - High throughput means processing many tasks simultaneously
 
-### Webpages will load wéither one from below option:
+### Webpages will load one from below option:
 1. Serverless api : Expensive and difficult to set up, stores static pages
 2. CDN (content delivery network) : server spread across the globe, Dynamic Data will be stored here in DB.
 
