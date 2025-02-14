@@ -8,12 +8,11 @@ published: true
 ---
 
 
-
-# Understanding Docker: From Basics to Advanced Concepts
+Understanding Docker: From Basics to Advanced Concepts
 
 In this comprehensive guide, we'll explore Docker from its fundamental concepts to advanced features, including container orchestration and best practices.
 
-## 1. Docker Overview
+1. Docker Overview
 
 Docker is a platform that enables developers to package applications and their dependencies into lightweight, portable containers. These containers can run consistently across different environments, making it easier to develop, ship, and run applications.
 
@@ -24,7 +23,7 @@ Key concepts:
 - Registry: A repository for storing and sharing Docker images
 - Dockerfile: A script containing instructions to build a Docker image
 
-## 2. Essential Docker Commands
+2. Essential Docker Commands
 
 Container Management:
 
@@ -42,7 +41,7 @@ docker pull <image>       # Download an image
 docker rmi <image>        # Remove an image
 
 
-## 3. Docker Run Commands
+3. Docker Run Commands
 
 Basic Run Commands:
 
@@ -57,7 +56,7 @@ docker run -p 80:80 nginx        # Map host port to container port
 docker run -v /host/path:/container/path nginx  # Mount volume
 
 
-## 4. Advanced Docker Run Features
+4. Advanced Docker Run Features
 
 Resource Management:
 
@@ -67,7 +66,7 @@ docker run -e DB_HOST=mysql nginx     # Environment variables
 docker run --network=my-network nginx # Network configuration
 ```
 
-## 5. Docker Images
+5. Docker Images
 
 Creating Images:
 
@@ -105,7 +104,7 @@ services:
       MYSQL_ROOT_PASSWORD: example
 
 
-## 7. Docker Engine
+7. Docker Engine
 
 Components:
 - Docker daemon (dockerd)
@@ -113,7 +112,7 @@ Components:
 - Docker CLI client
 - Manages images, containers, networks, and volumes
 
-## 8. Docker Storage
+8. Docker Storage
 
 Storage Types:
 - Volumes: Managed by Docker
@@ -126,7 +125,7 @@ docker volume create my-vol
 docker run -v my-vol:/app nginx
 
 
-## 9. Docker Networking
+9. Docker Networking
 
 Network Commands:
 
@@ -141,7 +140,7 @@ Network Types:
 - none: No network access
 - overlay: Multi-host networking
 
-## 10. Docker Registry
+10. Docker Registry
 
 Registry Information:
 - Docker Hub: https://hub.docker.com
@@ -154,7 +153,7 @@ docker push username/image
 docker pull username/image
 
 
-## 11. Container Orchestration
+11. Container Orchestration
 
 Docker Swarm Commands:
 
