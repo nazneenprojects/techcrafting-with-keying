@@ -1,10 +1,8 @@
 ---
-layout: post
-title: "Understanding Docker: From Basics to Advanced Concepts"
-date: 2024-02-14
-categories: [Technology, DevOps, Docker]
-tags: [docker, containers, devops, kubernetes, orchestration]
-description: "A comprehensive guide to Docker covering basic concepts, commands, orchestration, and best practices for containerization."
+layout: single
+title:  "DevOps Part 1 : Docker"
+date:   2025-02-14 15:00:00 +0100
+published: true
 ---
 
 # Understanding Docker: From Basics to Advanced Concepts
