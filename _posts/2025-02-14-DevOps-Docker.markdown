@@ -27,40 +27,40 @@ Key concepts:
 ## 2. Essential Docker Commands
 
 Container Management:
-```
+
 docker ps                  # List running containers
 docker ps -a              # List all containers
 docker start <container>  # Start a container
 docker stop <container>   # Stop a container
 docker rm <container>     # Remove a container
-```
+
 
 Image Management:
-```
+
 docker images             # List available images
 docker pull <image>       # Download an image
 docker rmi <image>        # Remove an image
-```
+
 
 ## 3. Docker Run Commands
 
 Basic Run Commands:
-```
+
 docker run nginx                  # Run a container
 docker run -d nginx              # Run in detached mode
 docker run --name web-server nginx  # Run with a specific name
-```
+
 
 Port Mapping and Volume Mounting:
-```
+
 docker run -p 80:80 nginx        # Map host port to container port
 docker run -v /host/path:/container/path nginx  # Mount volume
-```
+
 
 ## 4. Advanced Docker Run Features
 
 Resource Management:
-```
+
 docker run --memory="512m" nginx      # Memory limit
 docker run --cpus="2" nginx          # CPU limit
 docker run -e DB_HOST=mysql nginx     # Environment variables
@@ -70,7 +70,7 @@ docker run --network=my-network nginx # Network configuration
 ## 5. Docker Images
 
 Creating Images:
-```
+
 FROM ubuntu:20.04
 WORKDIR /app
 COPY . .
@@ -78,7 +78,7 @@ RUN apt-get update && apt-get install -y python3
 ENV PORT=8080
 EXPOSE 8080
 CMD ["python3", "app.py"]
-```
+
 
 Environment Variables:
 - Set using ENV in Dockerfile
@@ -92,7 +92,7 @@ CMD vs ENTRYPOINT:
 ## 6. Docker Compose
 
 Basic compose file:
-```
+
 version: '3'
 services:
   web:
@@ -103,7 +103,7 @@ services:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: example
-```
+
 
 ## 7. Docker Engine
 
@@ -121,19 +121,19 @@ Storage Types:
 - tmpfs mounts: Memory-only storage
 
 Volume Commands:
-```
+
 docker volume create my-vol
 docker run -v my-vol:/app nginx
-```
+
 
 ## 9. Docker Networking
 
 Network Commands:
-```
+
 docker network create my-network
 docker network ls
 docker network connect my-network container1
-```
+
 
 Network Types:
 - bridge: Default network for containers
@@ -148,20 +148,20 @@ Registry Information:
 - Private registry format: registry.example.com/username/repository
 
 Registry Commands:
-```
+
 docker login
 docker push username/image
 docker pull username/image
-```
+
 
 ## 11. Container Orchestration
 
 Docker Swarm Commands:
-```
+
 docker swarm init                # Initialize Swarm
 docker swarm join --token <token>  # Join as worker
 docker service create --replicas=3 -p 8080:80 web-server  # Create service
-```
+
 
 Orchestration Tools:
 
