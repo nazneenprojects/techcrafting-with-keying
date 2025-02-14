@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  DevOps Section - Docker
-date:   2025-01-28 12:35:00 +0100
+date:   2025-02-14 15:35:00 +0100
 published: true
 ---
 
