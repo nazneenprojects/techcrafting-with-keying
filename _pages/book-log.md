@@ -7,5 +7,21 @@ permalink: /book-log/
 ---
 
 
-# Under maintainance
+# My Reading List
+
+| Book Title | Author | Category | Cover |
+|------------|--------|----------|-------|
+| My Life in Full | Indra Nooyi | The lives and careers of Indian-origin women CEOs as immigrants in the U.S | ![Cover](link-to-cover-image) |
+| Flow | Mihaly Csikszentmihalyi | Psychology | ![Cover](link-to-cover-image) |
+| How to Win Friends and Influence People | Dale Carnegie | Communication / social skills | ![Cover](link-to-cover-image) |
+| Lean In | Sheryl Sandberg | Women's lives, careers, and thinking | ![Cover](link-to-cover-image) |
+| How to Live on 24 Hours a Day | Arnold Bennett | Time management | ![Cover](link-to-cover-image) |
+| Loving Bravely | Alexandra Solomon | Couple therapy and marriage | ![Cover](link-to-cover-image) |
+| Deep Work | Cal Newport | Work productivity | ![Cover](link-to-cover-image) |
+| Think Again | Adam Grant | Psychology | ![Cover](link-to-cover-image) |
+| The First Rule of Mastery: Stop Worrying about What People Think of You | Michael Gervais | Psychology | ![Cover](link-to-cover-image) |
+| Mayo Clinic Guide to a Healthy Pregnancy | Dr. Myra J. Wick M.D. Ph.D. | Health | ![Cover](link-to-cover-image) |
+
+
+
 
