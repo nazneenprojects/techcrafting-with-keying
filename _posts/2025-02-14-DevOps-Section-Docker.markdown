@@ -63,7 +63,7 @@ docker run --memory="512m" nginx      # Memory limit
 docker run --cpus="2" nginx          # CPU limit
 docker run -e DB_HOST=mysql nginx     # Environment variables
 docker run --network=my-network nginx # Network configuration
-```
+
 
 ### Docker Images
 
