@@ -69,6 +69,7 @@ docker run --network=my-network nginx # Network configuration
 
 Creating Images:
 
+```
 FROM ubuntu:20.04
 WORKDIR /app
 COPY . .
@@ -76,6 +77,7 @@ RUN apt-get update && apt-get install -y python3
 ENV PORT=8080
 EXPOSE 8080
 CMD ["python3", "app.py"]
+```
 
 
 Environment Variables:
@@ -90,7 +92,7 @@ CMD vs ENTRYPOINT:
 ### Docker Compose
 
 Basic compose file:
-
+```
 version: '3'
 services:
   web:
@@ -101,6 +103,7 @@ services:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: example
+```
 
 
 7. Docker Engine
