@@ -20,6 +20,7 @@ permalink: /book-log/
 | Think Again | Adam Grant | Psychology | ![Cover](link-to-cover-image) |
 | The First Rule of Mastery: Stop Worrying about What People Think of You | Michael Gervais | Psychology | ![Cover](link-to-cover-image) |
 | Why We Sleep | Mathew Walker | Health & Wellness  | ![Cover](link-to-cover-image) |
+| Don't believe everything you think | Joseph Nguyen | Self Help  | ![Cover](link-to-cover-image) |
 
 
 
