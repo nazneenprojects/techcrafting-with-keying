@@ -26,44 +26,49 @@ Key concepts:
 
 Container Management:
 
+```
 docker ps                  # List running containers
 docker ps -a              # List all containers
 docker start <container>  # Start a container
 docker stop <container>   # Stop a container
 docker rm <container>     # Remove a container
-
+```
 
 Image Management:
 
+```
 docker images             # List available images
 docker pull <image>       # Download an image
 docker rmi <image>        # Remove an image
-
+```
 
 ### Docker Run Commands
 
 Basic Run Commands:
 
+```
 docker run nginx                  # Run a container
 docker run -d nginx              # Run in detached mode
 docker run --name web-server nginx  # Run with a specific name
-
+```
 
 Port Mapping and Volume Mounting:
 
+```
 docker run -p 80:80 nginx        # Map host port to container port
 docker run -v /host/path:/container/path nginx  # Mount volume
-
+```
 
 ### Advanced Docker Run Features
 
 Resource Management:
 
+```
 docker run --memory="512m" nginx      # Memory limit
 docker run --cpus="2" nginx          # CPU limit
 docker run -e DB_HOST=mysql nginx     # Environment variables
 docker run --network=my-network nginx # Network configuration
-
+```
 
 ### Docker Images
 
@@ -123,18 +128,20 @@ Storage Types:
 
 Volume Commands:
 
+```
 docker volume create my-vol
 docker run -v my-vol:/app nginx
-
+```
 
 ### Docker Networking
 
 Network Commands:
 
+```
 docker network create my-network
 docker network ls
 docker network connect my-network container1
-
+```
 
 Network Types:
 - bridge: Default network for containers
@@ -150,19 +157,21 @@ Registry Information:
 
 Registry Commands:
 
+```
 docker login
 docker push username/image
 docker pull username/image
-
+```
 
 ### Container Orchestration
 
 Docker Swarm Commands:
 
+```
 docker swarm init                # Initialize Swarm
 docker swarm join --token <token>  # Join as worker
 docker service create --replicas=3 -p 8080:80 web-server  # Create service
-
+```
 
 ## Orchestration Tools:
 
