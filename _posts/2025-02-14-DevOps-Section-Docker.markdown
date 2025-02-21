@@ -11,7 +11,7 @@ published: true
 
 In this comprehensive guide, we'll explore Docker from its fundamental concepts to advanced features, including container orchestration and best practices.
 
-1. Docker Overview
+### Docker Overview
 
 Docker is a platform that enables developers to package applications and their dependencies into lightweight, portable containers. These containers can run consistently across different environments, making it easier to develop, ship, and run applications.
 
@@ -22,7 +22,7 @@ Key concepts:
 - Registry: A repository for storing and sharing Docker images
 - Dockerfile: A script containing instructions to build a Docker image
 
-2. Essential Docker Commands
+### Essential Docker Commands
 
 Container Management:
 
@@ -40,7 +40,7 @@ docker pull <image>       # Download an image
 docker rmi <image>        # Remove an image
 
 
-3. Docker Run Commands
+### Docker Run Commands
 
 Basic Run Commands:
 
@@ -55,7 +55,7 @@ docker run -p 80:80 nginx        # Map host port to container port
 docker run -v /host/path:/container/path nginx  # Mount volume
 
 
-4. Advanced Docker Run Features
+### Advanced Docker Run Features
 
 Resource Management:
 
@@ -65,7 +65,7 @@ docker run -e DB_HOST=mysql nginx     # Environment variables
 docker run --network=my-network nginx # Network configuration
 ```
 
-5. Docker Images
+### Docker Images
 
 Creating Images:
 
@@ -87,7 +87,7 @@ CMD vs ENTRYPOINT:
 - CMD: Default command, can be overridden
 - ENTRYPOINT: Fixed command, parameters can be appended
 
-## 6. Docker Compose
+### Docker Compose
 
 Basic compose file:
 
@@ -111,7 +111,7 @@ Components:
 - Docker CLI client
 - Manages images, containers, networks, and volumes
 
-8. Docker Storage
+### Docker Storage
 
 Storage Types:
 - Volumes: Managed by Docker
@@ -124,7 +124,7 @@ docker volume create my-vol
 docker run -v my-vol:/app nginx
 
 
-9. Docker Networking
+### Docker Networking
 
 Network Commands:
 
@@ -139,7 +139,7 @@ Network Types:
 - none: No network access
 - overlay: Multi-host networking
 
-10. Docker Registry
+### Docker Registry
 
 Registry Information:
 - Docker Hub: https://hub.docker.com
@@ -152,7 +152,7 @@ docker push username/image
 docker pull username/image
 
 
-11. Container Orchestration
+### Container Orchestration
 
 Docker Swarm Commands:
 
@@ -161,20 +161,20 @@ docker swarm join --token <token>  # Join as worker
 docker service create --replicas=3 -p 8080:80 web-server  # Create service
 
 
-Orchestration Tools:
+## Orchestration Tools:
 
-1. Docker Swarm
+### Docker Swarm
    - Native Docker solution
    - Easier to set up
    - Integrated with Docker CLI
 
-2. Kubernetes
+### Kubernetes
    - More powerful and flexible
    - Industry standard
    - Larger ecosystem
    - Can use Docker, Rocket, or CRI-O as runtime
 
-3. Apache Mesos
+### Apache Mesos
    - Good for very large scale
    - Complex setup
    - Used by large enterprises
