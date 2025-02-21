@@ -11,7 +11,7 @@ permalink: /book-log/
 
 | Book Title | Author | Category | Cover |
 |------------|--------|----------|-------|
-| My Life in Full | Indra Nooyi | The lives and careers of Indian-origin women CEOs as immigrants in the U.S |  ![Book1](https://github.com/nazneenprojects/techcrafting-with-keying/assets/books/My Life in Full.jpg) |
+| My Life in Full | Indra Nooyi | The lives and careers of Indian-origin women CEOs as immigrants in the U.S | [![My Life in Full](https://github.com/nazneenprojects/techcrafting-with-keying/assets/books/My Life in Full.jpg)](https://github.com/nazneenprojects/techcrafting-with-keying/assets/books/My Life in Full.jpg) |
 | Flow | Mihaly Csikszentmihalyi | Psychology | ![Cover](link-to-cover-image) |
 | How to Win Friends and Influence People | Dale Carnegie | Communication / social skills | ![Cover](link-to-cover-image) |
 | Lean In | Sheryl Sandberg | Women's lives, careers, and thinking | ![Cover](link-to-cover-image) |
