@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  DevOps Section - Docker
+title:  DevOps - Docker
 date:   2025-02-14 15:35:00 +0100
 published: true
 ---
@@ -179,7 +179,7 @@ docker service create --replicas=3 -p 8080:80 web-server  # Create service
    - Complex setup
    - Used by large enterprises
 
-Best Practices:
+## Best Practices:
 - Use service replicas for high availability
 - Implement proper networking
 - Monitor container health
