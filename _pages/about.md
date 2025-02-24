@@ -26,7 +26,7 @@ permalink: /about/
 Nazneen Mulani
 
 - **Occupation:** Software Engineer
-- **Location:** India 🇮🇳 Germany 🇩🇪
+- **Location:**   India 🇮🇳
 
 ---
 
