@@ -185,9 +185,11 @@ sudo snap start redis
 sudo snap stop redis
 sudo snap restart redis
 
-
 # To get ping pong
 redis-cli ping
+
+# check the port
+redis-cli info | grep port
 
 
 
