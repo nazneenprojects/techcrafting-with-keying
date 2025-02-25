@@ -1,12 +1,12 @@
 ---
 
 layout: single
-title:  "Django made easy!"
-date:   2024-02-06 14:46:24 +0100
-published: false
+title:  "Redis : Simple Guide"
+date:   2025-02-25 14:46:24 +0100
+published: true
 ---
 
-# Redis Guide
+# Redis Simple Guide
 
 
 
