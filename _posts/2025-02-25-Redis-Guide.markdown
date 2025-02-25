@@ -20,7 +20,7 @@ https://redis.io/
 - **Scalability:** Supports replication, clustering, and partitioning  
 - **Pub/Sub & Streaming:** Supports real-time messaging  
 
----
+
 
 ## **Common Use Cases of Redis**
 
@@ -44,7 +44,7 @@ cache.setex("user:123", 3600, "John Doe")  # Expiry in 1 hour
 print(cache.get("user:123"))  # Output: John Doe
 ```
 
----
+
 
 ### **2. Session Management & Authentication**
 Since Redis is super fast, it's great for storing **user sessions** instead of using cookies or database sessions.  
@@ -57,7 +57,7 @@ Since Redis is super fast, it's great for storing **user sessions** instead of u
 cache.set("session:abc123", "user_id_456", ex=3600)  # Expires in 1 hour
 ```
 
----
+
 
 ### **3. Real-time Analytics & Leaderboards**
 Redis **Sorted Sets** (`ZSET`) help in **ranking systems**, making it ideal for leaderboards, analytics, and scoring systems.  
@@ -72,7 +72,7 @@ cache.zadd("game_leaderboard", {"player1": 100, "player2": 200})
 print(cache.zrevrange("game_leaderboard", 0, -1, withscores=True))  # Highest first
 ```
 
----
+
 
 ### **4. Pub/Sub (Real-time Messaging & Notifications)**
 Redis **Pub/Sub** allows applications to send real-time messages between users or services.  
@@ -95,7 +95,7 @@ for message in pubsub.listen():
     print(message)  # Listen for new messages
 ```
 
----
+
 
 ### **5. Rate Limiting (API Throttling)**
 Redis is great for **limiting API requests** (e.g., **only 10 requests per minute per user**).  
