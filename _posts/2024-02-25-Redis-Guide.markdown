@@ -160,7 +160,41 @@ while True:
 ❌ **Avoid Redis when:**
 - You need **strong durability** (e.g., financial transactions)  
 - Your dataset is **too large for RAM**  
-- Complex **relational queries** are required  
+- Complex **relational queries** are required
+
+
+
+## Redis Installation on Ubuntu 22 OS
+
+To install via Snap, run:
+
+```
+sudo apt update
+sudo apt install redis-tools # for redis-cli
+sudo snap install redis
+
+sudo systemctl status snap.redis.server.service  # check status
+
+# start , stop or reestart
+sudo systemctl start snap.redis.server.service
+sudo systemctl stop snap.redis.server.service
+sudo systemctl restart snap.redis.server.service
+
+# OR using snap
+sudo snap start redis
+sudo snap stop redis
+sudo snap restart redis
+
+
+# To get ping pong
+redis-cli ping
+
+
+
+```
+
+
+
 
 
 
