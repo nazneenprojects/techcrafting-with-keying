@@ -4,6 +4,7 @@ layout: single
 title:  "Redis : Simple Guide"
 date:   2025-02-25 14:46:24 +0100
 published: true
+
 ---
 
 # Redis Simple Guide
@@ -31,7 +32,9 @@ Redis is widely used for caching frequently accessed data, reducing database loa
 - Caching API responses  
 - Caching database query results  
 
-🔹 **Example in Python (FastAPI Cache with Redis)**  
+
+**Example in Python (FastAPI Cache with Redis)**  
+
 ```python
 import redis
 
@@ -52,7 +55,8 @@ Since Redis is super fast, it's great for storing **user sessions** instead of u
 - Storing JWT session tokens  
 - Keeping track of logged-in users  
 
-🔹 **Example:** Storing session data  
+
+**Example:** Storing session data  
 ```python
 cache.set("session:abc123", "user_id_456", ex=3600)  # Expires in 1 hour
 ```
@@ -66,7 +70,8 @@ Redis **Sorted Sets** (`ZSET`) help in **ranking systems**, making it ideal for 
 - Real-time analytics  
 - Top trending topics  
 
-🔹 **Example:** Leaderboard in Redis  
+
+**Example:** Leaderboard in Redis  
 ```python
 cache.zadd("game_leaderboard", {"player1": 100, "player2": 200})
 print(cache.zrevrange("game_leaderboard", 0, -1, withscores=True))  # Highest first
@@ -81,7 +86,8 @@ Redis **Pub/Sub** allows applications to send real-time messages between users o
 - Notifications & alerts  
 - Real-time streaming data  
 
-🔹 **Example:**  
+
+**Example:**  
 **Publisher:**
 ```python
 cache.publish("notifications", "New user signed up!")
@@ -104,7 +110,8 @@ Redis is great for **limiting API requests** (e.g., **only 10 requests per minut
 - Throttle API usage  
 - Limit form submissions  
 
-🔹 **Example:**  
+
+**Example:**  
 ```python
 user_ip = "192.168.1.1"
 key = f"rate_limit:{user_ip}"
@@ -123,11 +130,13 @@ Redis **Lists** and **Streams** can be used as **task queues** for background pr
 - Celery task queues  
 - Asynchronous job processing  
 
-🔹 **Example:** Adding tasks to a queue  
+
+**Example:** Adding tasks to a queue  
 ```python
 cache.lpush("task_queue", "send_email")
 ```
-🔹 **Worker processing tasks**  
+
+**Worker processing tasks**  
 ```python
 while True:
     task = cache.rpop("task_queue")
@@ -150,14 +159,16 @@ while True:
 
 
 ### **When to Use Redis?**
-✅ **Yes, use Redis when:**
+
+**Yes, use Redis when:**
 - You need ultra-fast reads/writes  
 - Caching frequently accessed data  
 - Storing real-time leaderboard or analytics  
 - Managing user sessions  
 - Implementing rate limiting  
 
-❌ **Avoid Redis when:**
+
+**Avoid Redis when:**
 - You need **strong durability** (e.g., financial transactions)  
 - Your dataset is **too large for RAM**  
 - Complex **relational queries** are required
