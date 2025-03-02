@@ -12,7 +12,7 @@ published: true
 ## Introduction
 In this blog post, I will walk you through my journey of integrating **HubSpot** with a **FastAPI backend** and a **React frontend**. The goal was to enable OAuth authentication and retrieve contacts and company details from HubSpot.
 
----
+
 
 ## What is OAuth 2.0?
 OAuth 2.0 is an industry-standard protocol for authorization, allowing secure access to user data without exposing credentials. It enables applications to request **scoped** access to a user's data through a secure **token-based** authentication system.
@@ -25,7 +25,7 @@ OAuth 2.0 is an industry-standard protocol for authorization, allowing secure ac
 
 OAuth 2.0 is one of the most secure methods and is widely used for third-party integrations, including HubSpot.
 
----
+
 
 ## Why This Integration?
 Many businesses use **HubSpot** for CRM, and integrating it into an application can help in automating workflows, managing contacts, and syncing customer data efficiently. This integration allows:
@@ -34,7 +34,7 @@ Many businesses use **HubSpot** for CRM, and integrating it into an application 
 - Fetching **contacts & company details**.
 - Storing access tokens securely in **Redis**.
 
----
+
 
 ## Tech Stack Used
 
@@ -49,7 +49,7 @@ Many businesses use **HubSpot** for CRM, and integrating it into an application 
 - **Axios** for making API requests.
 - **React Context API** for state management.
 
----
+
 
 ## Setting Up the Project
 ### **1. Running the Backend**
@@ -78,7 +78,7 @@ To check stored OAuth tokens in Redis:
 redis-cli KEYS "*"
 ```
 
----
+
 
 ## API Endpoints (HubSpot Integration)
 - **Authorize HubSpot** → `/integrations/hubspot/authorize`
@@ -86,7 +86,7 @@ redis-cli KEYS "*"
 - **Get Credentials** → `/integrations/hubspot/credentials`
 - **Load HubSpot Data** → `/integrations/hubspot/load`
 
----
+
 
 ## Key Challenges & Learnings
 ### **Handling OAuth Flow**
@@ -100,14 +100,14 @@ OAuth 2.0 authentication involves multiple steps:
 - Stored OAuth credentials in Redis for quick access.
 - Used Redis expiry to prevent token misuse.
 
----
+
 
 ## Future Improvements
 - **Enhance the UI**: Display fetched HubSpot contacts in a visually appealing way.
 - **Optimize API Calls**: Implement batch fetching for large datasets.
 - **Auto-refresh Tokens**: Schedule background tasks to refresh access tokens.
 
----
+
 
 ## References
 - [HubSpot API Key](https://app-na2.hubspot.com/developer-api-key/242106441)
@@ -115,7 +115,7 @@ OAuth 2.0 authentication involves multiple steps:
 - [Contacts API](https://api.hubapi.com/crm/v3/objects/contacts)
 - [Companies API](https://developers.hubspot.com/docs/reference/api/crm/objects/companies)
 
----
+
 
 ## Conclusion
 This integration was a great learning experience, helping me understand OAuth authentication, API security, and Redis caching. In the future, I plan to refine the UI and make API calls more efficient. Stay tuned for updates!
