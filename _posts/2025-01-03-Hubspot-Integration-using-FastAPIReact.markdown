@@ -7,7 +7,6 @@ published: true
 
 ---
 
-# Integrating HubSpot with FastAPI & React: A Step-by-Step Guide
 
 ## Introduction
 In this blog post, I will walk you through my journey of integrating **HubSpot** with a **FastAPI backend** and a **React frontend**. The goal was to enable OAuth authentication and retrieve contacts and company details from HubSpot.
