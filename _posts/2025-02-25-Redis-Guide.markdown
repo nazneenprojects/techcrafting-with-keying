@@ -7,10 +7,6 @@ published: true
 
 ---
 
-# Redis Simple Guide
-
-
-
 ### **What is Redis?**
 Redis (Remote Dictionary Server) is an **in-memory, key-value data store** known for **speed, simplicity, and scalability**. It stores data in **RAM**, making read and write operations extremely fast compared to traditional databases.
 https://redis.io/
