@@ -67,3 +67,23 @@ If 0 < a < 1, the function decreases as x increases
 # Big O Notation
 
 Big O notation tells you how fast an algorithm is. For example, suppose you have a list of size n. Simple search needs to check each element, so it will take n operations. The run time in big O notation is O(n). Where are the seconds? There are none—big O doesn’t tell you the speed in seconds. Big O notation lets you compare the number of operations. It tells you how fast the algorithm grows. O(log n)
+
+Big O establishes a worst-case run time. 
+Run time complexity types:
+
+1. Worst Case
+2. Average Case
+3. Best Case
+
+Some common big O run times
+Here are five big O run times  sorted from fastest to slowest:
+
+O(log n), also known as log time. Example: binary search.
+
+O(n), also known as linear time. Example: simple search.
+
+O(n * log n). Example: a fast sorting algorithm, like quicksort 
+
+O(n2). Example: a slow sorting algorithm, like selection sort
+
+O(n!). Example: a really slow algorithm, like the traveling salesperson 
