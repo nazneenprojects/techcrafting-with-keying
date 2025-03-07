@@ -102,3 +102,15 @@ Instead of seconds, we talk about how quickly the run time of an algorithm incre
 Run time of algorithms is expressed in big O notation.
 
 O(log n) is faster than O(n), and it gets a lot faster as the list of items you’re searching grows.
+
+
+
+- Binary search is a lot faster than simple search as your array gets bigger.
+
+- O(log n) is faster than O(n), and it gets a lot faster once the list of items you’re searching through grows.
+
+- Algorithm speed isn’t measured in seconds.
+
+- Algorithm times are measured in terms of growth of an algorithm.
+
+- Algorithm times are written in big O notation.
