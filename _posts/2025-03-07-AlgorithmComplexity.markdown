@@ -62,3 +62,8 @@ If 0 < a < 1, the function decreases as x increases
 ![image](https://github.com/user-attachments/assets/8f0f70ef-b7e7-4bca-ba07-cda671b264ca)
 
 ![image](https://github.com/user-attachments/assets/7d8dedeb-b4bb-43be-8974-4cf10d0ad7bd)
+
+
+# Big O Notation
+
+Big O notation tells you how fast an algorithm is. For example, suppose you have a list of size n. Simple search needs to check each element, so it will take n operations. The run time in big O notation is O(n). Where are the seconds? There are none—big O doesn’t tell you the speed in seconds. Big O notation lets you compare the number of operations. It tells you how fast the algorithm grows. O(log n)
