@@ -24,7 +24,9 @@ log_a(y) = x
 ```
 
 
-Properties of Logarithms with Examples
+Properties of Logarithms with Examples:
+
+```
 Product Rule: log_a(x×y) = log_a(x) + log_a(y)
 Example: log_10(1000) = log_10(10×100) = log_10(10) + log_10(100) = 1 + 2 = 3
 Quotient Rule: log_a(x/y) = log_a(x) - log_a(y)
@@ -32,8 +34,11 @@ Example: log_2(16/4) = log_2(16) - log_2(4) = 4 - 2 = 2
 Power Rule: log_a(x^n) = n × log_a(x)
 Example: log_10(1000) = log_10(10^3) = 3 × log_10(10) = 3 × 1 = 3
 
+```
+
 Types of Logarithms with Examples
 
+```
 Natural Logarithms (base e)
 Written as ln(x) or log_e(x)
 Example: ln(e^2) = 2
@@ -57,7 +62,7 @@ Domain: x > 0 (logarithms of zero or negative numbers are undefined)
 Vertical asymptote at x = 0
 If a > 1, the function increases slowly as x increases
 If 0 < a < 1, the function decreases as x increases
-
+```
 
 ![image](https://github.com/user-attachments/assets/8f0f70ef-b7e7-4bca-ba07-cda671b264ca)
 
