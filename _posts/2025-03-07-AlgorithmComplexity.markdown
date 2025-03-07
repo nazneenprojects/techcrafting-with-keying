@@ -8,7 +8,7 @@ published: false
 
 # Algorithm Complexity
 
-## Prerequisites : Logarithm
+## Prerequisites : Logarithms
 
 Important Formula : A logarithm is the inverse of an exponential function, where the logarithm of a number is the exponent to which a base is raised to produce that number. 
 
@@ -22,3 +22,43 @@ The equivalent logarithmic form is:
 log_a(y) = x
 
 ```
+
+
+Properties of Logarithms with Examples
+Product Rule: log_a(x×y) = log_a(x) + log_a(y)
+Example: log_10(1000) = log_10(10×100) = log_10(10) + log_10(100) = 1 + 2 = 3
+Quotient Rule: log_a(x/y) = log_a(x) - log_a(y)
+Example: log_2(16/4) = log_2(16) - log_2(4) = 4 - 2 = 2
+Power Rule: log_a(x^n) = n × log_a(x)
+Example: log_10(1000) = log_10(10^3) = 3 × log_10(10) = 3 × 1 = 3
+
+Types of Logarithms with Examples
+
+Natural Logarithms (base e)
+Written as ln(x) or log_e(x)
+Example: ln(e^2) = 2
+
+Common Logarithms (base 10)
+Written as log(x) or log_10(x)
+Example: log(1000) = 3
+
+Change of Base Formula
+log_a(x) = log_b(x) / log_b(a)
+Example: To find log_2(16) using natural logarithms:
+log_2(16) = ln(16) / ln(2) = 2.77 / 0.693 = 4
+
+Graphing Logarithms
+The logarithmic function y = log_a(x) is the reflection of y = a^x across the line y = x.
+
+Graphing Logarithms
+The logarithmic function y = log_a(x) is the reflection of y = a^x across the line y = x.
+Key characteristics:
+Domain: x > 0 (logarithms of zero or negative numbers are undefined)
+Vertical asymptote at x = 0
+If a > 1, the function increases slowly as x increases
+If 0 < a < 1, the function decreases as x increases
+
+
+![image](https://github.com/user-attachments/assets/8f0f70ef-b7e7-4bca-ba07-cda671b264ca)
+
+![image](https://github.com/user-attachments/assets/7d8dedeb-b4bb-43be-8974-4cf10d0ad7bd)
