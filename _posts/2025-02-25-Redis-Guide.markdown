@@ -143,14 +143,15 @@ while True:
 
 
 ## **Summary: Why Use Redis?**
-| **Feature**            | **Benefit**                                      |
+
+| **Feature**           | **Benefit**                                      |
 |----------------------|------------------------------------------------|
-| **Super Fast**      | In-memory storage with sub-millisecond latency |
+| **Super Fast**       | In-memory storage with sub-millisecond latency |
 | **Flexible Data Types** | Supports strings, lists, sets, hashes, sorted sets |
-| **Persistence**     | Can save snapshots to disk for durability       |
-| **Replication**     | Master-slave replication for high availability  |
-| **Pub/Sub**         | Real-time messaging for chat and notifications  |
-| **Scalable**        | Supports clustering and partitioning            |
+| **Persistence**      | Can save snapshots to disk for durability       |
+| **Replication**      | Master-slave replication for high availability  |
+| **Pub/Sub**          | Real-time messaging for chat and notifications  |
+| **Scalable**         | Supports clustering and partitioning            |
 
 
 
