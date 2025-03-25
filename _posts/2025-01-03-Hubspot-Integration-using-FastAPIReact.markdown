@@ -127,6 +127,14 @@ For more details on Redis, refer my blog post : [Redis Simple Guide](https://naz
    
 
 ![img](https://github.com/user-attachments/assets/d9522a37-79ea-4d20-be7f-3589671346f5)
+![auth req hubspot](https://github.com/user-attachments/assets/bf058b5e-145b-4d3f-b97a-4e72234105d3)
+![otp with hubspot](https://github.com/user-attachments/assets/56cc8cbf-043b-4a19-a66b-fc2cb049a0c7)
+![otp with hubspot auth test account](https://github.com/user-attachments/assets/56ff80a5-c1bb-4d25-bc09-42c797c772df)
+![connected to hubspot](https://github.com/user-attachments/assets/32e4042b-187d-4151-90e2-aaa8bf3c0c06)
+![Metadata requested from hubspot](https://github.com/user-attachments/assets/348c7453-cf24-4b54-800d-7488c0ab0a6c)
+
+
+
 
 
 
