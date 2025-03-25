@@ -52,9 +52,6 @@ Many businesses use **HubSpot** for CRM, and integrating it into an application 
 
 ``` https://github.com/nazneenprojects/integration_airtable_hubspot__notion.git  ```
 
-<div class="video-wrapper">
-    <iframe src="assets/images/vlc-record-2025-03-25-17h47m50s-Nazneen_Mulani_screenrecording (copy).mp4-.ts" frameborder="0"></iframe>
-</div>
 
 ## Setting Up the Project
 ### **1. Running the Backend**
