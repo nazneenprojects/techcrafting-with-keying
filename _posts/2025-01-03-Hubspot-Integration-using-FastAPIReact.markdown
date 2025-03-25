@@ -123,10 +123,8 @@ OAuth 2.0 authentication involves multiple steps:
 This integration was a great learning experience, helping me understand OAuth authentication, API security, and Redis caching. In the future, I plan to refine the UI and make API calls more efficient. Stay tuned for updates!
 
 ## Redis Blog
-For more details on Redis, refer my blog post : [Redis Simple Guide]
+For more details on Redis, refer my blog post : [Redis Simple Guide](https://nazneenprojects.github.io/techcrafting-with-keying/2025/02/25/Redis-Guide.html)
 
-UI Page 
-(https://nazneenprojects.github.io/techcrafting-with-keying/2025/02/25/Redis-Guide.html)
 Authorization phase with Hubspot
 ![img](https://github.com/user-attachments/assets/d9522a37-79ea-4d20-be7f-3589671346f5)
 Authorization phase with Hubspot
