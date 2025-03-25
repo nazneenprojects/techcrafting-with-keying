@@ -123,14 +123,21 @@ OAuth 2.0 authentication involves multiple steps:
 This integration was a great learning experience, helping me understand OAuth authentication, API security, and Redis caching. In the future, I plan to refine the UI and make API calls more efficient. Stay tuned for updates!
 
 ## Redis Blog
-For more details on Redis, refer my blog post : [Redis Simple Guide](https://nazneenprojects.github.io/techcrafting-with-keying/2025/02/25/Redis-Guide.html)
-   
+For more details on Redis, refer my blog post : [Redis Simple Guide]
 
+UI Page 
+(https://nazneenprojects.github.io/techcrafting-with-keying/2025/02/25/Redis-Guide.html)
+Authorization phase with Hubspot
 ![img](https://github.com/user-attachments/assets/d9522a37-79ea-4d20-be7f-3589671346f5)
+Authorization phase with Hubspot
 ![auth req hubspot](https://github.com/user-attachments/assets/bf058b5e-145b-4d3f-b97a-4e72234105d3)
+Credentials required
 ![otp with hubspot](https://github.com/user-attachments/assets/56cc8cbf-043b-4a19-a66b-fc2cb049a0c7)
+Waiting for OTP from Hubspot
 ![otp with hubspot auth test account](https://github.com/user-attachments/assets/56ff80a5-c1bb-4d25-bc09-42c797c772df)
+Connected to Hubspot
 ![connected to hubspot](https://github.com/user-attachments/assets/32e4042b-187d-4151-90e2-aaa8bf3c0c06)
+Fetched Metadata from Hubspot after successfull authentication
 ![Metadata requested from hubspot](https://github.com/user-attachments/assets/348c7453-cf24-4b54-800d-7488c0ab0a6c)
 
 
