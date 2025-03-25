@@ -49,7 +49,8 @@ Many businesses use **HubSpot** for CRM, and integrating it into an application 
 - **React Context API** for state management.
 
 #### Github Link for Code - 
-https://github.com/nazneenprojects/integration_airtable_hubspot__notion.git
+
+``` https://github.com/nazneenprojects/integration_airtable_hubspot__notion.git  ```
 
 ## Setting Up the Project
 ### **1. Running the Backend**
